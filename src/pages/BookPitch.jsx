@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button.jsx";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.jsx";
 import { Checkbox } from "@/components/ui/checkbox.jsx";
 import { CheckCircle, ArrowLeft, ArrowRight, Calendar, Clock, DollarSign, Users } from "lucide-react";
-import { PitchBooking } from "../Entities/PitchBooking.js";
+import { PitchBooking } from "../entities/PitchBooking.js";
 
 const pitchTypes = [
   { id: "5-aside-1hr", name: "5-Aside Pitch Hire - 1HR", duration: "1 hour", players: "10 players max", price: 120 },
