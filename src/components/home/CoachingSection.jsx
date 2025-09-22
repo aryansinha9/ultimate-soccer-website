@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@/Components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
 // This is a temporary utility function. We will create a proper utils file later.
