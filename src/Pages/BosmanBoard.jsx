@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button.jsx";
 import { Input } from "@/components/ui/input.jsx";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.jsx";
 import { Checkbox } from "@/components/ui/checkbox.jsx";
-import { ContactInquiry } from "../Entities/ContactInquiry.js";
+import { ContactInquiry } from "@/entities/ContactInquiry.js";
 
 // Temporary utility function
 const createPageUrl = (pageName) => `/${pageName.toLowerCase()}`;

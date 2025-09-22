@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { League } from '../Entities/League';
+import { League } from '@/entities/League';
 
 export default function AvailableLeagues() {
   const [leagues, setLeagues] = useState([]);
