@@ -3,26 +3,26 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Layout.jsx';
 
 // Import all page components
-import Homepage from './Pages/Homepage.jsx';
-import BookPitch from './Pages/BookPitch.jsx';
-import BookPitchInfo from './Pages/BookPitchInfo.jsx'; // <-- THIS LINE IS ESSENTIAL
-import BootRoom from './Pages/BootRoom.jsx';
-import Coaching from './Pages/Coaching.jsx';
-import KidsParties from './Pages/KidsParties.jsx';
-import LeagueTables from './Pages/LeagueTables.jsx';
-import Fixtures from './Pages/Fixtures.jsx';
-import LeagueRules from './Pages/LeagueRules.jsx';
-import BosmanBoard from './Pages/BosmanBoard.jsx';
-import MatchHighlights from './Pages/MatchHighlights.jsx';
-import KitStore from './Pages/KitStore.jsx';
-import RegisterTeam from './Pages/RegisterTeam.jsx';
-import Tournaments from './Pages/Tournaments.jsx';
-import JoinLeague from './Pages/JoinLeague.jsx';
-import AvailableLeagues from './Pages/AvailableLeagues.jsx';
-import About from './Pages/About.jsx';
-import Terms from './Pages/Terms.jsx';
-import FAQ from './Pages/FAQ.jsx';
-import Privacy from './Pages/Privacy.jsx';
+import Homepage from './pages/Homepage.jsx';
+import BookPitch from './pages/BookPitch.jsx';
+import BookPitchInfo from './pages/BookPitchInfo.jsx'; // <-- THIS LINE IS ESSENTIAL
+import BootRoom from './pages/BootRoom.jsx';
+import Coaching from './pages/Coaching.jsx';
+import KidsParties from './pages/KidsParties.jsx';
+import LeagueTables from './pages/LeagueTables.jsx';
+import Fixtures from './pages/Fixtures.jsx';
+import LeagueRules from './pages/LeagueRules.jsx';
+import BosmanBoard from './pages/BosmanBoard.jsx';
+import MatchHighlights from './pages/MatchHighlights.jsx';
+import KitStore from './pages/KitStore.jsx';
+import RegisterTeam from './pages/RegisterTeam.jsx';
+import Tournaments from './pages/Tournaments.jsx';
+import JoinLeague from './pages/JoinLeague.jsx';
+import AvailableLeagues from './pages/AvailableLeagues.jsx';
+import About from './pages/About.jsx';
+import Terms from './pages/Terms.jsx';
+import FAQ from './pages/FAQ.jsx';
+import Privacy from './pages/Privacy.jsx';
 
 function App() {
   return (

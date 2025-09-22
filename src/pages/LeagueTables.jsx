@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { Link } from "react-router-dom";
 // import { createPageUrl } from "@/utils";
-import { League } from "../Entities/League";
+import { League } from "../entities/League";
 import { ChevronRight } from "lucide-react";
 
 // Temporary utility function until we create the utils file
